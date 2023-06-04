@@ -1,0 +1,43 @@
+/* set page margins */
+body{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+/* logo styling */
+#logo{
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+/* styles to handle top navigation */
+a{
+    
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 24px;
+}
+.topnavigationbar{
+    display:flex;
+    justify-content: space-between;
+}
+#routes{
+   display: flex;
+   margin-top: 55px;
+
+}
+
+/* styling centersection */
+#centerSection{
+    display:flex;
+}
+#imageSection{
+    width: 50%;
+}
+#descriptionSection{
+    width: 50%
+}
+#image{
+    width: 375px;
+    height: 375px;
+    border-radius: 30px;
+}

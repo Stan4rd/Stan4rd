@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style/index2.css">
+    <title>HTML and CSS Fundamentals</title>
+</head>
+<body>
+    <!-- Whole article -->
+    <div id="wholeArticle">
+    </div>
+
+    <!-- Heading Area -->
+<div id="headingArea">
+    <h1 id="articleHeading"> HTML And CSS Fundamentals
+    </h1>
+</div>
+
+<!-- Main Section -->
+<!-- Contains the introduction, the image section, the html, the css, the conclusion -->
+<div id="mainSection">
+
+<!-- Introduction -->
+<div id="introduction">
+    <p> I just completed my first week of my Software Development Course using HTML and CSS. I am excited to explain step by step, using <a href="https://fs.blog/feynman-technique/">the Feynman Technique</a> , what I have learnt so far from a beginner’s view. Enjoy.
+    </p>
+</div>
+
+
+    <!-- Image Section -->
+    <div id="imageSection">
+<img id="image1" src="./assets/images/html.jpg" alt="HTML ">
+<h2 id="heading2"> VS</h2>
+<img id="image2" src="./assets/images/CSS.jpg" alt="CSS">
+    </div>
+
+
+<!-- HTML section -->
+<div id="htmlSection">
+    <h2 id="html"> HTML</h2>
+    <h3 id="htmlWhat"> What is HTML?</h3>
+    <p> HTML stands for Hypertext Markup Language. It is the standard markup language used in the creation of websites. 
+    </p> <br/> 
+    <h3 id="htmlWhy"> Why use HTML?</h3>
+    <ol>
+        <li> Structure and Semantics  </li>
+        <p> HTML provides a structured way to organize content on the web. It uses tags to define different elements such as headings, paragraphs, lists, images, and links. These tags give meaning and structure to the content, making it easier for both humans and search engines to understand.</p>
+        <li> Browser Compatibility</li>
+        <p> HTML is supported by all modern web browsers, making it a universal language for creating web pages. Whether you're using Chrome, Firefox, Safari, or any other popular browser, they all understand and render HTML code.</p>
+        <li> Integration with CSS and JavaScript</li>
+        <p> HTML works seamlessly with CSS (Cascading Style Sheets) and JavaScript. CSS allows you to control the presentation and visual styling of HTML elements, while JavaScript enables dynamic and interactive functionality on web pages. HTML, CSS, and JavaScript together form the core technologies for building modern websites.</p>
+        <li> Ease of Learning and Use</li>
+        <p> HTML has a relatively simple syntax and is easy to learn, especially for beginners. It doesn't require extensive programming knowledge to get started. With a basic understanding of HTML tags and attributes, you can quickly create and publish web content.</p>
+    
+    </ol> <br/>
+
+    <h3 id="htmlHow"> How Does HTML Work?</h3>
+    <p> HTML utilises the Box Model Concept where different elements are placed in different boxes and the boxes placed in bigger boxes to create the final piece. <br/> In explaining how HTML works, we will focus on the structure of the HTML document, Tags and Elements Used, Attributes, Content, The Document Object Model and Rendering. 
+    </p>
+    <ol>
+        <li> Structure</li>
+        <p> HTML documents are structured using a tree-like hierarchy of elements. The root element is typically "html", which contains two main sections: "head" and "body". The "head" section contains metadata about the document, such as the title, character encoding, and links to external stylesheets or scripts. The "body" section contains the visible content of the web page.</p>
+            <img id="image3" src="./assets/images/structurehtml.PNG" alt="structurehtml">
+       <li> Tags and Elements</li>     
+       <p> HTML tags define different elements or components of a web page. Tags are enclosed in angle brackets (< >) and come in pairs: an opening tag and a closing tag. The opening tag indicates the start of an element, while the closing tag marks its end.Examples of tags include: the "p" tag and the "div" tag.   </p>
+       <li> Attributes</li>
+       <p>HTML tags can also include attributes, which provide additional information about an element. Attributes are added within the opening tag and consist of a name-value pair. For example, the <img> tag has attributes like src (specifying the image source) </p>
+       <li> Content</li>
+       <p> The content of an HTML element is placed between its opening and closing tags. It can be text, other nested elements, or a combination of both.</p>
+       <li> Document Object Model (DOM)</li>
+       <p> The DOM is the entire HTML document with its different elements known as nodes. It is loaded onto the web browser which renders it to a webpage.  
+    </p>
+    </ol>
+</div> <br/>
+
+<!-- CSS Section -->
+<div id="cssSection">
+    <h2 id="css"> CSS</h2>
+    <h3 id="cssWhat"> What is CSS?</h3>
+    <p>CSS Stands for Cascading Style Sheet. <br/> It is a markup language used to add style to the HTML document. It is responsible for making the web page visually appealing and also helps in responsiveness; which makes the webpage compatible on different devices.  </p> <br/>
+    <h3 id="cssWhy"> Why Use CSS?</h3>
+    <ol>
+        <li> Separation of Concerns</li>
+        <p> CSS allows you to separate the presentation layer (styles and layout) from the structure and content of a web page (HTML). This separation of concerns improves the maintainability and scalability of web projects. With CSS, you can make changes to the visual appearance of a website without modifying the underlying HTML structure.</p>
+        <li> Visual Consistency</li>
+        <p> CSS provides a consistent and unified way to define the visual styles across multiple web pages or an entire website. By using CSS, you can create a single stylesheet that controls the appearance of various elements throughout your site, ensuring a consistent look and feel.</p>
+        <li> Flexibility and Control</li>
+        <p>  CSS offers a wide range of styling options and properties to customize the visual presentation of HTML elements. You can control attributes like colors, fonts, sizes, margins, padding, borders, backgrounds, and more. CSS provides precise control over the layout, positioning, and responsiveness of elements, enabling you to create visually appealing and responsive designs.</p>
+        <li> Integration with HTML and JavaScript</li>
+        <p> CSS seamlessly integrates with HTML and JavaScript. HTML provides the structure, JavaScript adds interactivity, and CSS controls the visual presentation. By combining these technologies, you can create dynamic and interactive web pages with enhanced user experiences.</p>
+
+    </ol> <br/>
+    <h3 id="cssHow"> How Does CSS work?</h3>
+    <p> CSS styling can be done; Inline, Internal or External. </p>
+    <p> In Inline, the style attribute is added to the element in the HTML document.     </p>
+    <img id="image4" src="./assets/images/inlinecss.PNG">
+    <p> In internal, the style is embedded in the head tag.     </p>
+    <img id="image5" src="./assets/images/internalcss.PNG">
+    <p>  In External, the link to the CSS document containing all the styles is embedded in the head tag. External Styling is the best option as it ensures Separation of Concerns which ensures an efficient coding experience.    </p>
+    <img id="image6" src="./assets/images/externalcss.PNG">  <br/> <br/> 
+    <p> In further explanation of how CSS works, we will focus on the different components of the CSS: <br/> Selectors, Declaration and the Rule Set</p> 
+    <ol>
+        <li> Selectors</li>
+        <p>CSS selectors determine which HTML elements the styles should be applied to. Selectors can target elements based on their type (e.g., p for paragraphs), class (e.g., .my-class), ID (e.g., #my-id), attributes, and more.</p>
+        <li> Declarations</li>
+        <p>  CSS declarations define the styles and properties that should be applied to the selected elements. Declarations consist of a property and a value pair. For example, color: blue sets the text color to blue, and font-size: 16px sets the font size to 16 pixels. Multiple declarations are separated by semicolons.</p>
+        <li> Rule Sets</li>
+        <p>CSS rules are created by combining selectors and declarations. A rule set consists of a selector followed by a set of declarations enclosed in curly braces. For example: </p>
+        <img id="image7" src="./assets/images/rulesetscss.PNG">
+    </ol> <br/>
+    <p id="cssRendering"> Once the browser receives the HTML and the associated CSS, it analyses the HTML structure and applies specific styles to each element accordingly, hence displaying the content with the specified visual formatting. </p>
+</div> <br/> <br/> 
+
+<!-- Conclusion -->
+<div id="conclusion">
+    <h5 id="summary"> In Summary</h5>
+    <p>HTML and CSS can be distinguished by comparing them to constructing and painting a building. In this analogy, the building represents the HTML document, while the painting of the building represents the CSS. When constructing a building, there are two key aspects to consider: the structure and the aesthetic appeal. The structure defines the layout, rooms, and overall architecture, while the aesthetic appeal involves adding colors, patterns, and visual elements.Similarly, when building a website, HTML and CSS fulfill these respective roles. HTML represents the structure of the web page, defining the content, headings, paragraphs, images, links, and other elements. It organizes the information and establishes the foundation of the page, much like the construction of a building.On the other hand, CSS is responsible for the visual presentation and styling of the web page. It determines the colors, fonts, sizes, margins, borders, backgrounds, and layout. CSS adds the aesthetic touch to the HTML structure, making the web page visually appealing and engaging, just as painting does for a building.In summary, HTML and CSS have distinct roles in web development, much like constructing and painting a building. HTML provides the structure and content, while CSS enhances the visual appearance and style, making the website attractive and user-friendly.</p> <br/> <br/> 
+    <p> Here is a <a href="http://127.0.0.1:5500/index.html">simple design </a>  of a Webpage and its Code.</p>
+</div>
+</div>
+</body>
+</html>
